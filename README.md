@@ -53,7 +53,7 @@ VERSION: The CVT container version string, 2.5 is the most common but others are
 
 FORMAT: This will either read PRG or SEQ. If the CVT file is moved to a Commodore file system this is the file type it will report when a directory listing is called.
 
-CONTENTS: GEOS files have one one two possible payloads: a GEOS SEQ or GEOS VLIR.
+CONTENTS: GEOS files have one of two possible payloads: a GEOS SEQ or GEOS VLIR.
 
 FILE NAME: This is the native GEOS file name stored in the header of the CVT file and should not be confused with the name of the CVT file as it appears on a modern file system. GEOS file names can be upwards of 16 characters long. Filenames are encoded in ASCII and only use the lower 0x0&ndash;0x7f range.
 
